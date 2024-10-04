@@ -89,3 +89,42 @@ nav{
     background-color:#abc4ff;
     transition: 1s;
 }
+
+nav .bx{
+    display: none;
+}
+
+@media(max-width:700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        background: #abc4ff;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .bx{
+        display: block;
+        color:#edf2fa;
+        margin: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        margin-left: 150px;
+    }
+
+    .nav-links ul{
+        padding: 10px;
+
+    }
+}
