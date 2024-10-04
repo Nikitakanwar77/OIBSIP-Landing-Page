@@ -19,6 +19,7 @@ nav{
 }
 
 .logo{
+    margin-top: 15px;
     color:#edf2fa;
     font-size: 50px;
 }
@@ -127,4 +128,92 @@ nav .bx{
         padding: 10px;
 
     }
+}
+
+
+
+/* course */
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1{
+    font-size:36px;
+    font-weight: 600;
+    color: #abc4ff;
+}
+
+
+h4{
+    color: #abc4ff;
+}
+
+p{
+    color:#edf2fa ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: #abc4ff;
+    border-radius: 10px;
+    margin-bottom: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    color: #edf2fa;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+    
+}
+
+
+@media(max-width:700px)
+{
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col img{
+    width: 100%;
+    
 }
