@@ -19,7 +19,7 @@ nav{
 }
 
 .logo{
-    color: black;
+    color:#abc4ff;
     font-size: 50px;
 }
 
@@ -36,7 +36,7 @@ nav{
 }
 
 .nav-links ul li a{
-    color: white;
+    color: #edf2fa;
     text-decoration: none;
     font-size: 15px;
 }
@@ -45,7 +45,7 @@ nav{
     content: ' ';
     width: 0;
     height: 2px;
-    background: grey;
+    background:#abc4ff;
     display: block;
     margin: auto;
 }
@@ -57,7 +57,7 @@ nav{
 
 .text-box{
     width: 90%;
-    color: white;
+    color: #edf2fa;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,19 +66,19 @@ nav{
 }
 
 .text-box h1{
-    font-size: 62px;
+    font-size: 50px;
 }
 .text-box p{
    margin: 10px 0 40px;
    font-size: 14px;
-   color: white;
+   color:#edf2fa;
 }
 
 .hero-btn{
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border:2px solid white ;
+    color: #edf2fa;
+    border:2px solid  #edf2fa;
     padding:12px 34px;
     font-size: 13px;
     background: transparent;
@@ -87,7 +87,7 @@ nav{
 }
 
 .hero-btn:hover{
-    border: 2px solid gray;
-    background-color: blueviolet;
+    border: 2px solid #edf2fa;
+    background-color:#abc4ff;
     transition: 1s;
 }
