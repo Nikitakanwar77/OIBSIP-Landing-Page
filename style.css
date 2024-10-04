@@ -19,7 +19,7 @@ nav{
 }
 
 .logo{
-    color:#abc4ff;
+    color:#edf2fa;
     font-size: 50px;
 }
 
@@ -42,19 +42,17 @@ nav{
 }
 
 .nav-links ul li::after{
-    content: ' ';
-    width: 0;
+    color: var(--text color);
+    font-size: 1.1rem;
     height: 2px;
-    background:#abc4ff;
-    display: block;
-    margin: auto;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
 }
 
-.nav-links ul li:hover::after{
-    transition: 0.5s;
-    width: 100%;
+.nav-links a:hover{
+    color: #abc4ff;
 }
-
 .text-box{
     width: 90%;
     color: #edf2fa;
