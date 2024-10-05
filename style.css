@@ -202,6 +202,9 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
+.classes p{
+    color: black;
+}
 
 
 .classes-col{
@@ -213,5 +216,19 @@ h3{
 
 .classes-col img{
     width: 100%;
-    
+    border-radius: 10px;
+
+}
+
+.classes-col p{
+    padding: 0;
+    color: black;
+
+}
+
+.classes-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #abc4ff;
 }
