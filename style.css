@@ -7,7 +7,7 @@
 .header{
 min-height: 100vh;
 width: 100%;
-background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Hero1.jpg");
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Hero.jpg");
 background-position: center;
 background-size: cover;
 position: relative;
@@ -148,9 +148,6 @@ h1{
 }
 
 
-h4{
-    color: #abc4ff;
-}
 
 p{
     color:#edf2fa ;
@@ -198,22 +195,23 @@ h3{
 }
 
 
-.campus{
+
+.classes{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
-.campus-col{
-    flex-basis: 32%;
-    border-radius: 10%;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
+
+.classes-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
 }
 
-.campus-col img{
+.classes-col img{
     width: 100%;
     
 }
